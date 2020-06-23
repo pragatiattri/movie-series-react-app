@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  background-size: cover;
+  background-image: url(https://picsum.photos/200/300/?blur=2);
+  background-position: center center;
+  justify-content: space-around;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.tv-logo {
+  border: 2px solid;
+  border-radius: 6px;
+  color: #fff;
+  padding: 7px 5px;
+  font-weight: 500;
+  font-size: 1.4em;
+  border-color: #fff;
+  max-width: 30vw;
+  height: 8vh;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+}
+.App-link {
+  /* color: #61dafb; */
+}
+.react-logo-blk {
+  text-align: right;
+  margin: 5px;
+}
+/* .nocss-anchor {
+  text-decoration: none;
+  color: inherit;
+} */
+
+.tv-logo a:hover,
+a:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.movie-card a:hover,
+a:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+  border: none;
+}
+.movie-card .card-body {
+  border: none;
+}
+.movie-card .card-body img:hover {
+  transform: scale(1.1);
+  transition: width 1s, height 1s, transform 1s;
+}
+.col-red {
+  color: red;
+}
+.gray-heart {
+  color: gray;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.kltv-ftr {
+  min-height: 20vh;
+}
+.btm-15px {
+  bottom: 15px;
+  right: 15px;
+}
+nav {
+  padding: 15px;
+}
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+}
+#react-logo {
+  color: #00d8ff;
+}
+
+.nav-bar-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-flx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-blk {
+  min-height: 60vh;
+}
+.tagline {
+  font-size: 1.2em;
+}
+#load-more {
+  height: 30px;
+  border: 3px solid;
+  display: inline;
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #343a40;
+  vertical-align: middle;
+}
+.det-btn {
+  font-size: 14px;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
