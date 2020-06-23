@@ -2,17 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Here are the features implemented:
 
-# Search by movies/series title
-
-# Pagination in results
-
-# Save favorite content to "My Content"
-
-# Save/Unsave from "My Content"
-
-# Movie Details Page and further link to IMDB to fetch more info
-
-# React-redux, react-thunk is used for application state management
+1. Search by movies/series title
+2. Pagination in results
+3. Save favorite content to "My Content"
+4. Save/Unsave from "My Content"
+5. Movie Details Page and further link to IMDB to fetch more info
+6. React-redux, react-thunk is used for application state management
 
 ## Available Scripts
 
