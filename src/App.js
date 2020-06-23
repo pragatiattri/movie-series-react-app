@@ -12,7 +12,7 @@ import MyContent from "./components/MyContent";
 import { fetchMyContent } from "./actions/actionCreators";
 
 const unsubscribe = store.subscribe(() => {
-  console.log("store subscribed and updated state", store.getState());
+  // console.log("store subscribed and updated state");
 });
 
 function App() {

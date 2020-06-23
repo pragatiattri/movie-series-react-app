@@ -7,7 +7,7 @@ Here are the features implemented:
 3. Save favorite content to "My Content"
 4. Save/Unsave from "My Content"
 5. Movie Details Page and further link to IMDB to fetch more info
-6. React-redux, react-thunk is used for application state management
+6. React-redux, redux-thunk is used for application state management
 
 ## Available Scripts
 

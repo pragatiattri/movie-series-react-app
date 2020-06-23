@@ -18,7 +18,7 @@ export class MovieInfoPage extends Component {
   }
   render() {
     const { loading, movie, saveContent, unsaveContent } = this.props;
-    console.log("movie info --> ", movie);
+    // console.log("movie info --> ", movie);
     let movieInfo = (
       <div className="container">
         <div className="row">

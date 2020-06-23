@@ -6,7 +6,7 @@ import { fetchMyContent } from "../actions/actionCreators";
 
 class MyContent extends Component {
   componentDidMount() {
-    console.log("fetching content");
+    // console.log("fetching content");
     this.props.fetchMyContent();
   }
 
